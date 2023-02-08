@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRM Dashboard</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="site">
+    <div class="site__wrap">
+
+        <!--Aside-->
+        <aside class="aside">
+            <div class="aside__header">
+                <div class="logo">
+                    <div class="logo__img">
+                        <img src="img/logo.svg" alt="logo">
+                    </div>
+                    <h1 class="logo__title">
+                        Dashboard<span class="logo__version">v.01</span>
+                    </h1>
+                </div>
+            </div>
+            <div class="aside__body">
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">
+                                <span class="nav__img">
+                                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 21H14C19 21 21 19 21 14V8C21 3 19 1 14 1H8C3 1 1 3 1 8V14C1 19 3 21 8 21Z" stroke="#9197B3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M15.28 12.61C14.15 13.74 12.53 14.09 11.1 13.64L8.51001 16.22C8.33001 16.41 7.96001 16.53 7.69001 16.49L6.49001 16.33C6.09001 16.28 5.73001 15.9 5.67001 15.51L5.51001 14.31C5.47001 14.05 5.60001 13.68 5.78001 13.49L8.36001 10.91C7.92001 9.48 8.26001 7.86001 9.39 6.73001C11.01 5.11001 13.65 5.11001 15.28 6.73001C16.9 8.34001 16.9 10.98 15.28 12.61Z" stroke="#9197B3" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M9.45 15.28L8.59998 14.42" stroke="#9197B3" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M12.3945 9.70001H12.4035" stroke="#9197B3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </span>
+                                <span class="nav__text">Dashboard</span>
+                                <span class="nav__icons">
+                                    <i class="icons"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">
+                                <span class="nav__img">
+                                   <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14 21.75H8C2.57 21.75 0.25 19.43 0.25 14V8C0.25 2.57 2.57 0.25 8 0.25H14C19.43 0.25 21.75 2.57 21.75 8V14C21.75 19.43 19.43 21.75 14 21.75ZM8 1.75C3.39 1.75 1.75 3.39 1.75 8V14C1.75 18.61 3.39 20.25 8 20.25H14C18.61 20.25 20.25 18.61 20.25 14V8C20.25 3.39 18.61 1.75 14 1.75H8Z" fill="#9197B3"/>
+                                        <path d="M11.0006 12.0797C10.8706 12.0797 10.7406 12.0497 10.6206 11.9797L5.32061 8.9197C4.96061 8.7097 4.84059 8.2497 5.05059 7.8997C5.26059 7.5397 5.72061 7.4197 6.07061 7.6297L10.9906 10.4797L15.8806 7.6497C16.2406 7.4397 16.7006 7.5697 16.9006 7.9197C17.1006 8.2697 16.9806 8.7397 16.6306 8.9397L11.3706 11.9797C11.2606 12.0397 11.1306 12.0797 11.0006 12.0797Z" fill="#9197B3"/>
+                                        <path d="M11 17.5201C10.59 17.5201 10.25 17.1801 10.25 16.7701V11.3301C10.25 10.9201 10.59 10.5801 11 10.5801C11.41 10.5801 11.75 10.9201 11.75 11.3301V16.7701C11.75 17.1801 11.41 17.5201 11 17.5201Z" fill="#9197B3"/>
+                                        <path d="M11.0002 17.7498C10.4202 17.7498 9.8503 17.6198 9.3903 17.3698L6.19025 15.5898C5.23025 15.0598 4.49023 13.7898 4.49023 12.6898V9.2998C4.49023 8.20981 5.24025 6.9398 6.19025 6.3998L9.3903 4.6198C10.3103 4.1098 11.6902 4.1098 12.6102 4.6198L15.8102 6.3998C16.7702 6.9298 17.5103 8.19981 17.5103 9.2998V12.6898C17.5103 13.7798 16.7602 15.0498 15.8102 15.5898L12.6102 17.3698C12.1502 17.6298 11.5802 17.7498 11.0002 17.7498ZM11.0002 5.7498C10.6702 5.7498 10.3502 5.8098 10.1202 5.9398L6.92026 7.7198C6.43026 7.9898 5.99023 8.7498 5.99023 9.2998V12.6898C5.99023 13.2498 6.43026 13.9998 6.92026 14.2698L10.1202 16.0498C10.5802 16.3098 11.4202 16.3098 11.8802 16.0498L15.0802 14.2698C15.5702 13.9998 16.0103 13.2398 16.0103 12.6898V9.2998C16.0103 8.73981 15.5702 7.9898 15.0802 7.7198L11.8802 5.9398C11.6502 5.8098 11.3302 5.7498 11.0002 5.7498Z" fill="#9197B3"/>
+                                    </svg>
+                                </span>
+                                <span class="nav__text">Product</span>
+                                <span class="nav__icons">
+                                    <i class="icons"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav__item is-Active">
+                            <a href="#" class="nav__link">
+                                <span class="nav__img">
+                                   <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.0006 21.7498H8.00063C6.68063 21.7498 5.58063 21.6198 4.65063 21.3398C4.31063 21.2398 4.09063 20.9098 4.11063 20.5598C4.36063 17.5698 7.39063 15.2197 11.0006 15.2197C14.6106 15.2197 17.6306 17.5598 17.8906 20.5598C17.9206 20.9198 17.7006 21.2398 17.3506 21.3398C16.4206 21.6198 15.3206 21.7498 14.0006 21.7498ZM5.72063 20.0598C6.38063 20.1898 7.13063 20.2498 8.00063 20.2498H14.0006C14.8706 20.2498 15.6206 20.1898 16.2806 20.0598C15.7506 18.1398 13.5606 16.7197 11.0006 16.7197C8.44063 16.7197 6.25063 18.1398 5.72063 20.0598Z" fill="#9197B3"/>
+                                        <path d="M14 1H8C3 1 1 3 1 8V14C1 17.78 2.14 19.85 4.86 20.62C5.08 18.02 7.75 15.97 11 15.97C14.25 15.97 16.92 18.02 17.14 20.62C19.86 19.85 21 17.78 21 14V8C21 3 19 1 14 1ZM11 13.17C9.02 13.17 7.42 11.56 7.42 9.58C7.42 7.60002 9.02 6 11 6C12.98 6 14.58 7.60002 14.58 9.58C14.58 11.56 12.98 13.17 11 13.17Z" stroke="#9197B3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M10.9999 13.92C8.60992 13.92 6.66992 11.97 6.66992 9.58C6.66992 7.19002 8.60992 5.25 10.9999 5.25C13.3899 5.25 15.3299 7.19002 15.3299 9.58C15.3299 11.97 13.3899 13.92 10.9999 13.92ZM10.9999 6.75C9.4399 6.75 8.16992 8.02002 8.16992 9.58C8.16992 11.15 9.4399 12.42 10.9999 12.42C12.5599 12.42 13.8299 11.15 13.8299 9.58C13.8299 8.02002 12.5599 6.75 10.9999 6.75Z" fill="#9197B3"/>
+                                    </svg>
+                                </span>
+                                <span class="nav__text">Customers</span>
+                                <span class="nav__icons">
+                                    <i class="icons"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">
+                                <span class="nav__img">
+                                   <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M9.7516 14.8604V16.8904C9.7516 18.6104 8.15158 20.0004 6.18158 20.0004C4.21158 20.0004 2.60156 18.6104 2.60156 16.8904V14.8604C2.60156 16.5804 4.20158 17.8004 6.18158 17.8004C8.15158 17.8004 9.7516 16.5704 9.7516 14.8604Z" stroke="#9197B3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M9.7501 12.11C9.7501 12.61 9.6101 13.07 9.3701 13.47C8.78006 14.44 7.57004 15.05 6.17004 15.05C4.77004 15.05 3.56003 14.43 2.97003 13.47C2.73003 13.07 2.59009 12.61 2.59009 12.11C2.59009 11.25 2.99007 10.48 3.63007 9.92001C4.28007 9.35001 5.17003 9.01001 6.16003 9.01001C7.15003 9.01001 8.04006 9.36001 8.69006 9.92001C9.3501 10.47 9.7501 11.25 9.7501 12.11Z" stroke="#9197B3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M9.7516 12.11V14.86C9.7516 16.58 8.15158 17.8 6.18158 17.8C4.21158 17.8 2.60156 16.57 2.60156 14.86V12.11C2.60156 10.39 4.20158 9 6.18158 9C7.17158 9 8.06161 9.35 8.71161 9.91C9.3516 10.47 9.7516 11.25 9.7516 12.11Z" stroke="#9197B3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M21 8.9699V11.03C21 11.58 20.56 12.0299 20 12.0499H18.0399C16.9599 12.0499 15.97 11.2599 15.88 10.1799C15.82 9.5499 16.0599 8.9599 16.4799 8.5499C16.8499 8.1699 17.36 7.94995 17.92 7.94995H20C20.56 7.96995 21 8.4199 21 8.9699Z" stroke="#9197B3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M1 8.5V6.5C1 3.78 2.64 1.88 5.19 1.56C5.45 1.52 5.72 1.5 6 1.5H15C15.26 1.5 15.51 1.50999 15.75 1.54999C18.33 1.84999 20 3.76 20 6.5V7.95001H17.92C17.36 7.95001 16.85 8.17 16.48 8.55C16.06 8.96 15.82 9.55 15.88 10.18C15.97 11.26 16.96 12.05 18.04 12.05H20V13.5C20 16.5 18 18.5 15 18.5H12.5" stroke="#9197B3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </span>
+                                <span class="nav__text">Income</span>
+                                <span class="nav__icons">
+                                    <i class="icons"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">
+                                <span class="nav__img">
+                                   <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11 21.7503C10.37 21.7503 9.78 21.5104 9.34 21.0604L7.82001 19.5404C7.70001 19.4204 7.38 19.2904 7.22 19.2904H5.06C3.76 19.2904 2.70999 18.2403 2.70999 16.9403V14.7804C2.70999 14.6204 2.57999 14.3004 2.45999 14.1804L0.94 12.6604C0.5 12.2204 0.25 11.6303 0.25 11.0003C0.25 10.3703 0.49 9.7803 0.94 9.3403L2.45999 7.82028C2.57999 7.70028 2.70999 7.3803 2.70999 7.2203V5.06039C2.70999 3.76039 3.76 2.71029 5.06 2.71029H7.22C7.38 2.71029 7.70001 2.58029 7.82001 2.46029L9.34 0.940273C10.22 0.0602734 11.78 0.0602734 12.66 0.940273L14.18 2.46029C14.3 2.58029 14.62 2.71029 14.78 2.71029H16.94C18.24 2.71029 19.29 3.76039 19.29 5.06039V7.2203C19.29 7.3803 19.42 7.70028 19.54 7.82028L21.06 9.3403C21.5 9.7803 21.75 10.3703 21.75 11.0003C21.75 11.6303 21.51 12.2204 21.06 12.6604L19.54 14.1804C19.42 14.3004 19.29 14.6204 19.29 14.7804V16.9403C19.29 18.2403 18.24 19.2904 16.94 19.2904H14.78C14.62 19.2904 14.3 19.4204 14.18 19.5404L12.66 21.0604C12.22 21.5104 11.63 21.7503 11 21.7503ZM3.51999 13.1203C3.91999 13.5203 4.20999 14.2204 4.20999 14.7804V16.9403C4.20999 17.4103 4.59 17.7904 5.06 17.7904H7.22C7.78 17.7904 8.48001 18.0803 8.88 18.4803L10.4 20.0003C10.72 20.3203 11.28 20.3203 11.6 20.0003L13.12 18.4803C13.52 18.0803 14.22 17.7904 14.78 17.7904H16.94C17.41 17.7904 17.79 17.4103 17.79 16.9403V14.7804C17.79 14.2204 18.08 13.5203 18.48 13.1203L20 11.6003C20.16 11.4403 20.25 11.2303 20.25 11.0003C20.25 10.7703 20.16 10.5604 20 10.4004L18.48 8.88034C18.08 8.48034 17.79 7.7803 17.79 7.2203V5.06039C17.79 4.59039 17.41 4.21029 16.94 4.21029H14.78C14.22 4.21029 13.52 3.92035 13.12 3.52035L11.6 2.00033C11.28 1.68033 10.72 1.68033 10.4 2.00033L8.88 3.52035C8.48001 3.92035 7.78 4.21029 7.22 4.21029H5.06C4.59 4.21029 4.20999 4.59039 4.20999 5.06039V7.2203C4.20999 7.7803 3.91999 8.48034 3.51999 8.88034L2 10.4004C1.84 10.5604 1.75 10.7703 1.75 11.0003C1.75 11.2303 1.84 11.4403 2 11.6003L3.51999 13.1203Z" fill="#9197B3"/>
+                                        <path d="M14.0002 15C13.4402 15 12.9902 14.55 12.9902 14C12.9902 13.45 13.4402 13 13.9902 13C14.5402 13 14.9902 13.45 14.9902 14C14.9902 14.55 14.5502 15 14.0002 15Z" fill="#9197B3"/>
+                                        <path d="M8.01001 9C7.45001 9 7 8.55 7 8C7 7.45 7.45 7 8 7C8.55 7 9 7.45 9 8C9 8.55 8.56001 9 8.01001 9Z" fill="#9197B3"/>
+                                        <path d="M7.99945 14.7495C7.80945 14.7495 7.61945 14.6795 7.46945 14.5295C7.17945 14.2395 7.17945 13.7595 7.46945 13.4695L13.4695 7.46945C13.7595 7.17945 14.2395 7.17945 14.5295 7.46945C14.8195 7.75945 14.8195 8.23951 14.5295 8.52951L8.52945 14.5295C8.37945 14.6795 8.18945 14.7495 7.99945 14.7495Z" fill="#9197B3"/>
+                                    </svg>
+                                </span>
+                                <span class="nav__text">Promote</span>
+                                <span class="nav__icons">
+                                    <i class="icons"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav__link">
+                                <span class="nav__img">
+                                   <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7 21.3199C6.72 21.3199 6.42998 21.2499 6.16998 21.1099C5.59998 20.8099 5.25 20.2099 5.25 19.5699V18.15C2.23 17.84 0.25 15.6199 0.25 12.4399V6.43994C0.25 2.99994 2.56 0.689941 6 0.689941H16C19.44 0.689941 21.75 2.99994 21.75 6.43994V12.4399C21.75 15.8799 19.44 18.1899 16 18.1899H12.23L7.96997 21.03C7.67997 21.22 7.34 21.3199 7 21.3199ZM6 2.17993C3.42 2.17993 1.75 3.84993 1.75 6.42993V12.43C1.75 15.01 3.42 16.68 6 16.68C6.41 16.68 6.75 17.02 6.75 17.43V19.56C6.75 19.69 6.83 19.75 6.88 19.78C6.93001 19.81 7.03001 19.84 7.14001 19.77L11.59 16.81C11.71 16.73 11.86 16.68 12.01 16.68H16.01C18.59 16.68 20.26 15.01 20.26 12.43V6.42993C20.26 3.84993 18.59 2.17993 16.01 2.17993H6Z" fill="#9197B3"/>
+                                        <path d="M10.9998 11.1099C10.5898 11.1099 10.2498 10.7699 10.2498 10.3599V10.1499C10.2498 8.9899 11.0998 8.41989 11.4198 8.19989C11.7898 7.94989 11.9098 7.7799 11.9098 7.5199C11.9098 7.0199 11.4998 6.60986 10.9998 6.60986C10.4998 6.60986 10.0898 7.0199 10.0898 7.5199C10.0898 7.9299 9.7498 8.2699 9.3398 8.2699C8.92984 8.2699 8.58984 7.9299 8.58984 7.5199C8.58984 6.1899 9.6698 5.10986 10.9998 5.10986C12.3298 5.10986 13.4098 6.1899 13.4098 7.5199C13.4098 8.6599 12.5698 9.2299 12.2598 9.4399C11.8698 9.6999 11.7498 9.8699 11.7498 10.1499V10.3599C11.7498 10.7799 11.4098 11.1099 10.9998 11.1099Z" fill="#9197B3"/>
+                                        <path d="M11 13.6001C10.58 13.6001 10.25 13.2601 10.25 12.8501C10.25 12.4401 10.59 12.1001 11 12.1001C11.41 12.1001 11.75 12.4401 11.75 12.8501C11.75 13.2601 11.42 13.6001 11 13.6001Z" fill="#9197B3"/>
+                                   </svg>
+                                </span>
+                                <span class="nav__text">Help</span>
+                                <span class="nav__icons">
+                                    <i class="icons"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="aside__footer">
+                <div class="profile">
+                    <div class="profile__avatar">
+                        <img src="img/avatar.png" alt="avatar">
+                    </div>
+                    <div class="profile__info">
+                        <div class="profile__name">
+                            Evano
+                        </div>
+                        <div class="profile__post">
+                            Project Manager
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="aside__close">
+                <i class="icons icons__close"></i>
+            </div>
+        </aside>
+        <!--/Aside-->
+
+        <!--Main-->
+        <main class="main">
+
+            <!--Header-->
+            <header class="header">
+                <div class="header__title">
+                    Hello Evano 👋🏼,
+                </div>
+                <div class="header__hamburger">
+                    <div class="hamburger">
+                        <span class="hamburger__line"></span>
+                        <span class="hamburger__line"></span>
+                        <span class="hamburger__line"></span>
+                    </div>
+                </div>
+            </header>
+            <!--/Header-->
+
+            <!--Section Customers-->
+            <section class="customers">
+                <div class="customers__header">
+                    <div class="customers__info">
+                        <h2 class="customers__title">
+                            All Customers
+                        </h2>
+                        <div class="customers__subtitle">
+                            Active Members
+                        </div>
+                    </div>
+                    <div class="customers__input">
+                        <label class="input">
+                            <input name="search" type="text" placeholder="Search" class="input__field">
+                        </label>
+                    </div>
+                </div>
+                <div class="customers__body">
+                    <div class="table">
+                        <div class="table__head">
+                            <div class="table__title">Customer Name</div>
+                            <div class="table__title">Company</div>
+                            <div class="table__title">Phone Number</div>
+                            <div class="table__title">Email</div>
+                            <div class="table__title">Country</div>
+                            <div class="table__title table__title_center">Status</div>
+                        </div>
+                        <div class="table__row">
+                            <div class="table__area" data-label="Customer Name">Jane Cooper</div>
+                            <div class="table__area" data-label="Company">Microsoft</div>
+                            <div class="table__area" data-label="Phone Number">(225) 555-0118</div>
+                            <div class="table__area" data-label="Email">jane@microsoft.com</div>
+                            <div class="table__area" data-label="Country">United States</div>
+                            <div class="table__area table__area_center" data-label="Status">
+                                <div class="table__status table__status_active">
+                                    Active
+                                </div>
+                            </div>
+                        </div>
+                        <div class="table__row">
+                            <div class="table__area" data-label="Customer Name">Floyd Miles</div>
+                            <div class="table__area" data-label="Company">Yahoo</div>
+                            <div class="table__area" data-label="Phone Number">(205) 555-0100</div>
+                            <div class="table__area" data-label="Email">floyd@yahoo.com</div>
+                            <div class="table__area" data-label="Country">Kiribati</div>
+                            <div class="table__area table__area_center" data-label="Status">
+                                <div class="table__status table__status_inactive">
+                                   Inactive
+                                </div>
+                            </div>
+                        </div>
+                        <div class="table__row">
+                            <div class="table__area" data-label="Customer Name">Ronald Richards</div>
+                            <div class="table__area" data-label="Company">Adobe</div>
+                            <div class="table__area" data-label="Phone Number">(302) 555-0107</div>
+                            <div class="table__area" data-label="Email">ronald@adobe.com</div>
+                            <div class="table__area" data-label="Country">Israel</div>
+                            <div class="table__area table__area_center" data-label="Status">
+                                <div class="table__status table__status_inactive">
+                                    Inactive
+                                </div>
+                            </div>
+                        </div>
+                        <div class="table__row">
+                            <div class="table__area" data-label="Customer Name">Marvin McKinney</div>
+                            <div class="table__area" data-label="Company">Tesla</div>
+                            <div class="table__area" data-label="Phone Number">(252) 555-0126</div>
+                            <div class="table__area" data-label="Email">marvin@tesla.com</div>
+                            <div class="table__area" data-label="Country">Iran</div>
+                            <div class="table__area table__area_center" data-label="Status">
+                                <div class="table__status table__status_active">
+                                    Active
+                                </div>
+                            </div>
+                        </div>
+                        <div class="table__row">
+                            <div class="table__area" data-label="Customer Name">Jerome Bell</div>
+                            <div class="table__area" data-label="Company">Google</div>
+                            <div class="table__area" data-label="Phone Number">(629) 555-0129</div>
+                            <div class="table__area" data-label="Email">jerome@google.com</div>
+                            <div class="table__area" data-label="Country">Réunion</div>
+                            <div class="table__area table__area_center" data-label="Status">
+                                <div class="table__status table__status_active">
+                                    Active
+                                </div>
+                            </div>
+                        </div>
+                        <div class="table__row">
+                            <div class="table__area" data-label="Customer Name">Kathryn Murphy</div>
+                            <div class="table__area" data-label="Company">Microsoft</div>
+                            <div class="table__area" data-label="Phone Number">(406) 555-0120</div>
+                            <div class="table__area" data-label="Email">kathryn@microsoft.com</div>
+                            <div class="table__area" data-label="Country">Curaçao</div>
+                            <div class="table__area table__area_center" data-label="Status">
+                                <div class="table__status table__status_active">
+                                    Active
+                                </div>
+                            </div>
+                        </div>
+                        <div class="table__row">
+                            <div class="table__area" data-label="Customer Name">Jacob Jones</div>
+                            <div class="table__area" data-label="Company">Yahoo</div>
+                            <div class="table__area" data-label="Phone Number">(208) 555-0112</div>
+                            <div class="table__area" data-label="Email">jacob@yahoo.com</div>
+                            <div class="table__area" data-label="Country">Brazil</div>
+                            <div class="table__area table__area_center" data-label="Status">
+                                <div class="table__status table__status_active">
+                                    Active
+                                </div>
+                            </div>
+                        </div>
+                        <div class="table__row">
+                            <div class="table__area" data-label="Customer Name">Kristin Watson</div>
+                            <div class="table__area" data-label="Company">Facebook</div>
+                            <div class="table__area" data-label="Phone Number">(704) 555-0127</div>
+                            <div class="table__area" data-label="Email">kristin@facebook.com</div>
+                            <div class="table__area" data-label="Country">Åland Islands</div>
+                            <div class="table__area table__area_center" data-label="Status">
+                                <div class="table__status table__status_inactive">
+                                    Inactive
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="customers__footer">
+                    <div class="customers__description">
+                        Showing data 1 to 8 of  256K entries
+                    </div>
+                    <div class="customers__pagination">
+                        <div class="pagination">
+                            <button class="pagination__prev">
+                                <i class="icons icons__pagination"></i>
+                            </button>
+                            <div class="pagination__nav">
+                                <button class="pagination__btn is-Active">1</button>
+                                <button class="pagination__btn">2</button>
+                                <button class="pagination__btn">3</button>
+                                <button class="pagination__btn">4</button>
+                                <div class="pagination__divider">...</div>
+                                <button class="pagination__btn">40</button>
+                            </div>
+                            <button class="pagination__next">
+                                <i class="icons icons__pagination"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--/Section Customers-->
+
+        </main>
+        <!--/Main-->
+
+    </div>
+
+    <script src="js/script.min.js"></script>
+</body>
+</html>
