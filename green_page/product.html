@@ -10,13 +10,21 @@
     <link rel="stylesheet" type="text/css" href="css/slick.css"/>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="site">
-<div class="site__wrap">
+<body class="site site_overflow">
+<div class="site__wrap site__wrap_overflow">
 
+    <!--Header-->
     <header class="header">
+
+        <!--Section Header-Top-->
         <section class="header-top header-top__widgets">
             <div class="container">
                 <div class="navigation navigation__widgets">
+                    <div class="navigation__hamburger">
+                        <button class="hamburger">
+                            <span class="hamburger__item"></span>
+                        </button>
+                    </div>
                     <div class="navigation__list">
                         <div class="refs">
                             <div class="refs__wrapper">
@@ -39,7 +47,7 @@
                         <nav class="nav">
                             <a href="index.html" class="nav__link">Главная</a>
                             <a href="shop.html" class="nav__link">Магазин</a>
-                            <a href="#" class="nav__link">Покупателям</a>
+                            <a href="product.html" class="nav__link">Покупателям</a>
                             <a href="#" class="nav__link">Блог</a>
                             <a href="#" class="nav__link">Контакты</a>
                         </nav>
@@ -47,6 +55,9 @@
                 </div>
             </div>
         </section>
+        <!--/Section Header-Top-->
+
+        <!--Section Header-Middle-->
         <section class="header-middle header-middle__widgets">
             <div class="container">
                 <div class="info">
@@ -132,6 +143,9 @@
                 </div>
             </div>
         </section>
+        <!--/Section Header-Middle-->
+
+        <!--Section Header-Bottom-->
         <section class="header-bottom header-bottom__widgets">
             <div class="container">
                 <label class="input input__widgets">
@@ -152,10 +166,15 @@
                 </label>
             </div>
         </section>
-    </header>
+        <!--/Section Header-Bottom-->
 
+    </header>
+    <!--/Header-->
+
+    <!--Main-->
     <main class="main">
 
+        <!--Section Path-->
         <section class="sec-path">
             <div class="container">
                 <div class="path">
@@ -177,7 +196,9 @@
                 </div>
             </div>
         </section>
+        <!--/Section Path-->
 
+        <!--Section Product-Card-->
         <section class="sec-product-card">
             <div class="container">
                 <div class="sec-product-card__wrapper">
@@ -280,7 +301,7 @@
                                     </button>
                                 </div>
                                 <div class="product-info__block">
-                                    <button class="btn btn__product-info_svg">
+                                    <button class="btn btn__product-info btn__product-info_svg">
                                         <svg width="28" height="28" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <g clip-path="url(#clip0_1_429)">
                                                 <path d="M23.544 5.33716C22.344 4.03716 20.744 3.33716 18.944 3.33716C16.444 3.33716 14.844 4.73716 13.944 5.93716C13.744 6.23716 13.544 6.53716 13.344 6.83716C13.144 6.53716 12.944 6.23716 12.744 5.93716C11.844 4.73716 10.244 3.33716 7.74399 3.33716C5.94399 3.33716 4.34399 4.03716 3.14399 5.33716C1.94399 6.53716 1.34399 8.13716 1.34399 9.93716C1.34399 11.8372 2.14399 13.6372 3.84399 15.4372C5.34399 17.1372 7.54399 18.8372 9.94399 20.8372C10.844 21.5372 11.844 22.3372 12.844 23.2372C12.944 23.3372 13.144 23.4372 13.344 23.4372C13.544 23.4372 13.644 23.3372 13.844 23.2372C14.844 22.4372 15.844 21.6372 16.744 20.8372C19.244 18.8372 21.344 17.0372 22.844 15.4372C24.544 13.5372 25.344 11.7372 25.344 9.93716C25.244 8.13716 24.644 6.53716 23.544 5.33716ZM15.744 19.8372C14.944 20.4372 14.144 21.1372 13.244 21.8372C12.344 21.1372 11.544 20.4372 10.744 19.8372C5.94399 15.9372 2.74399 13.3372 2.74399 9.93716C2.74399 8.53716 3.24399 7.23716 4.14399 6.23716C5.04399 5.23716 6.34399 4.73716 7.74399 4.73716C9.64399 4.73716 10.944 5.83716 11.644 6.83716C12.244 7.63716 12.644 8.53716 12.744 8.83716C12.844 9.13716 13.144 9.33716 13.444 9.33716C13.744 9.33716 14.044 9.13716 14.144 8.83716C14.244 8.53716 14.544 7.63716 15.244 6.83716C15.944 5.93716 17.144 4.73716 19.144 4.73716C20.544 4.73716 21.844 5.23716 22.744 6.23716C23.644 7.23716 24.144 8.53716 24.144 9.93716C23.844 13.3372 20.644 15.9372 15.744 19.8372Z" fill="white"/>
@@ -294,7 +315,7 @@
                                     </button>
                                 </div>
                                 <div class="product-info__block">
-                                    <button class="btn btn__product-info_svg">
+                                    <button class="btn btn__product-info btn__product-info_svg">
                                         <svg width="28" height="28" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <g clip-path="url(#clip0_1_436)">
                                                 <path d="M13.844 6.33701H19.044L14.544 17.637C14.544 17.737 14.444 17.837 14.444 17.837C14.444 20.937 16.944 23.437 20.044 23.437C23.144 23.437 25.644 20.937 25.644 17.837C25.644 17.737 25.644 17.637 25.544 17.637L21.044 6.43701H23.144C23.544 6.43701 23.844 6.13701 23.844 5.73701C23.844 5.33701 23.544 5.03701 23.144 5.03701H13.844V3.13701C13.844 2.73701 13.544 2.43701 13.144 2.43701C12.744 2.43701 12.444 2.73701 12.444 3.13701V5.03701H3.24402C2.84402 5.03701 2.54402 5.33701 2.54402 5.73701C2.54402 6.13701 2.84402 6.43701 3.24402 6.43701H5.44402L0.844019 17.637C0.844019 17.737 0.744019 17.837 0.744019 17.837C0.744019 20.937 3.24402 23.437 6.34402 23.437C9.44402 23.437 11.944 20.937 11.944 17.837C11.944 17.737 11.944 17.637 11.844 17.637L7.44402 6.33701H12.544H13.844ZM6.44402 22.137C4.34402 22.137 2.64402 20.637 2.24402 18.537H10.544C10.244 20.637 8.44402 22.137 6.44402 22.137ZM10.344 17.237H2.54402L6.44402 7.53701L10.344 17.237ZM20.044 7.53701L23.944 17.237H16.144L20.044 7.53701ZM20.044 22.137C17.944 22.137 16.244 20.637 15.844 18.537H24.144C23.944 20.637 22.144 22.137 20.044 22.137Z" fill="white"/>
@@ -352,10 +373,15 @@
                 </div>
             </div>
         </section>
+        <!--/Section Product-Card-->
 
     </main>
+    <!--/Main-->
 
+    <!--Footer-->
     <footer class="footer">
+
+        <!--Section Footer-Top-->
         <section class="footer-top">
             <div class="container">
                 <div class="links">
@@ -449,10 +475,13 @@
                 </div>
             </div>
         </section>
+        <!--/Section Footer-Top-->
+
+        <!--Section Footer-Bottom-->
         <section class="footer-bottom">
             <div class="container">
                 <div class="details">
-                    <div class="details__block">
+                    <div class="details__block details__block_info">
                         <div class="details__item">
                             Name of shop © 2023
                         </div>
@@ -462,11 +491,11 @@
                             <sup>ТМ</sup>
                         </div>
                     </div>
-                    <div class="details__block">
+                    <div class="details__block details__block_coin">
                         <a href="#" class="details__item is-Active">UAH</a>
                         <a href="#" class="details__item">USD</a>
                     </div>
-                    <div class="details__block">
+                    <div class="details__block details__block_lang">
                         <a href="#" class="details__item is-Active">Rus</a>
                         <a href="#" class="details__item">Eng</a>
                         <a href="#" class="details__item">Ukr</a>
@@ -474,7 +503,10 @@
                 </div>
             </div>
         </section>
+        <!--/Section Footer-Bottom-->
+
     </footer>
+    <!--/Footer-->
 
 </div>
 
