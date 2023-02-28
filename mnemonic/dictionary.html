@@ -26,7 +26,7 @@
 
         <section class="english">
             <div class="container">
-                <div class="english__info tabs" >
+                <div class="english__info tabs is-Active" >
                     <div class="tabs__head">
                         <h2 class="tabs__subtitle">
                             Английський словарь
@@ -39,7 +39,71 @@
                             <div class="search__block">
                                 <label class="input">
                                     <span class="input__title">Поиск</span>
-                                    <input type="text" class="input__field input__field_search" required id="input-search">
+                                    <input type="text" class="input__field input__field_search" required data-search="english">
+                                    <span class="input__img"></span>
+                                    <span class="input__info info">*Поле должно содержать</span>
+                                </label>
+                                <div class="search__actions">
+                                    <button class="btn btn__search">Поиск</button>
+                                </div>
+                            </div>
+                            <div class="search__result">
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="france">
+            <div class="container">
+                <div class="france__info tabs">
+                    <div class="tabs__head">
+                        <h2 class="tabs__subtitle">
+                            Французский словарь <span class="tabs__mini">(пока недоступен, но скоро будет)</span>
+                        </h2>
+                        <div class="tabs__open">
+                        </div>
+                    </div>
+                    <div class="tabs__content">
+                        <form action="" class="search" data-lang="ru">
+                            <div class="search__block">
+                                <label class="input">
+                                    <span class="input__title">Поиск</span>
+                                    <input type="text" class="input__field input__field_search" required data-search="france">
+                                    <span class="input__img"></span>
+                                    <span class="input__info info">*Поле должно содержать</span>
+                                </label>
+                                <div class="search__actions">
+                                    <button class="btn btn__search">Поиск</button>
+                                </div>
+                            </div>
+                            <div class="search__result">
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="germany">
+            <div class="container">
+                <div class="germany__info tabs" >
+                    <div class="tabs__head">
+                        <h2 class="tabs__subtitle">
+                            Немецький словарь <span class="tabs__mini">(пока недоступен, но скоро будет)</span>
+                        </h2>
+                        <div class="tabs__open">
+                        </div>
+                    </div>
+                    <div class="tabs__content">
+                        <form action="" class="search" data-lang="ru">
+                            <div class="search__block">
+                                <label class="input">
+                                    <span class="input__title">Поиск</span>
+                                    <input type="text" class="input__field input__field_search" required data-search="germany">
                                     <span class="input__img"></span>
                                     <span class="input__info info">*Поле должно содержать</span>
                                 </label>

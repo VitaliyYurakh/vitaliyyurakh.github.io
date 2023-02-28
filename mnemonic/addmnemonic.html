@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="site">
+<div class="site__wrap">
+
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="header__logo logo">
+                    <img src="img/logo.png" alt="logo" class="logo__img">
+                </div>
+                <a href="dictionary.html">словарь</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+
+        <section class="add-mnemonics">
+            <div class="container">
+                <div class="add-mnemonics__info tabs is-Active">
+                    <div class="tabs__head">
+                        <h2 class="tabs__subtitle">
+                            Мнемоничеський Словарь
+                        </h2>
+                        <div class="tabs__open">
+                        </div>
+                    </div>
+                    <div class="tabs__content">
+                        <div class="tabs__form">
+                            <form action="#" class="form" id="form-mnemonic" data-lang-local="ru" data-lang-global="english">
+                                <div class="form__input">
+                                    <div class="form__block">
+                                        <label class="input">
+                                            <span class="input__title">English word * </span>
+                                            <input name="wordGlobal" type="text" class="input__field" placeholder="attempt" pattern="[A-Za-z]+" required id="input-eng">
+                                            <span class="input__info info">*Поле должно содержать только буквы английского алфавита</span>
+                                        </label>
+                                    </div>
+                                    <div class="form__block">
+                                        <label class="input">
+                                            <span class="input__title">Русское слово * </span>
+                                            <input name="wordLocal" type="text" class="input__field" placeholder="попытка" pattern="[А-Яа-яЁё\s,]+" required id="input-rus">
+                                            <span class="input__info info">*Поле должно содержать только буквы русского алфавита</span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="form__textarea">
+                                    <label class="textarea">
+                                        <span class="textarea__title">Мнемоническая фраза * </span>
+                                        <textarea name="mnemonic" class="textarea__field textarea__field_big" placeholder="'эта м'аленькая 'пт'ичка \попыталась\ съесть яичко" required data-input></textarea>
+                                        <span class="textarea__info info">*Поле должно содержать '  ', \\ - для выдиления слова</span>
+                                    </label>
+                                </div>
+                                <div class="form__switch">
+                                    <div class="switch">
+                                        <div class="switch__title">Выберите язык *</div>
+                                        <div class="switch__wrapper">
+                                            <label class="switch__item">
+                                                <input type="radio" name="lang" value="english" class="switch__input" checked>
+                                                <span class="switch__value">Английский</span>
+                                            </label>
+                                            <label class="switch__item">
+                                                <input type="radio" name="lang" value="france" class="switch__input" disabled>
+                                                <span class="switch__value">Французский</span>
+                                            </label>
+                                            <label class="switch__item">
+                                                <input type="radio" name="lang" value="germany" class="switch__input" disabled>
+                                                <span class="switch__value">Немецький</span>
+                                            </label>
+                                        </div>
+                                        <div class="switch__info info">
+                                            *Сейчас достyпен только английский язык в следующем обновлении будет добавлен новый
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form__error">
+                                </div>
+                                <div class="form__actions">
+                                    <button class="btn btn__form-add" id="btn-mnemonic" type="submit">Отправить</button>
+                                    <div class="form__info info">
+                                        *Перед отправкой проверьте данные
+                                    </div>
+                                    <div class="form__push">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__block">
+                    <img src="img/logo.png" alt="logo_mini" class="footer__img">
+                </div>
+                <div class="footer__info">
+                    2023 MnemonicToRemember.com
+                </div>
+                <div class="footer__policy">
+                    <a href="#" class="footer__link">
+                        Политика Конфиденциальности
+                    </a>
+                    <a href="#" class="footer__link">
+                        Пользовательское соглашение
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</div>
+
+<script src="js/script.min.js"></script>
+</body>
+</html>
