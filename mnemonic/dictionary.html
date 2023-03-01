@@ -35,11 +35,11 @@
                         </div>
                     </div>
                     <div class="tabs__content">
-                        <form action="" class="search" data-lang="ru">
+                        <form action="" class="search" data-form="english" data-lang="ru">
                             <div class="search__block">
                                 <label class="input">
                                     <span class="input__title">Поиск</span>
-                                    <input type="text" class="input__field input__field_search" required data-search="english">
+                                    <input type="text" class="input__field input__field_search" required pattern="[A-Za-z]+" data-search data-input="english">
                                     <span class="input__img"></span>
                                     <span class="input__info info">*Поле должно содержать</span>
                                 </label>
@@ -47,7 +47,7 @@
                                     <button class="btn btn__search">Поиск</button>
                                 </div>
                             </div>
-                            <div class="search__result">
+                            <div class="search__result" data-result>
 
                             </div>
                         </form>
@@ -67,11 +67,11 @@
                         </div>
                     </div>
                     <div class="tabs__content">
-                        <form action="" class="search" data-lang="ru">
+                        <form action="" class="search" data-form="france" data-lang="ru">
                             <div class="search__block">
                                 <label class="input">
                                     <span class="input__title">Поиск</span>
-                                    <input type="text" class="input__field input__field_search" required data-search="france">
+                                    <input type="text" class="input__field input__field_search" required data-search data-input="france">
                                     <span class="input__img"></span>
                                     <span class="input__info info">*Поле должно содержать</span>
                                 </label>
@@ -79,8 +79,7 @@
                                     <button class="btn btn__search">Поиск</button>
                                 </div>
                             </div>
-                            <div class="search__result">
-
+                            <div class="search__result" data-result>
                             </div>
                         </form>
                     </div>
@@ -99,11 +98,11 @@
                         </div>
                     </div>
                     <div class="tabs__content">
-                        <form action="" class="search" data-lang="ru">
+                        <form action="" class="search" data-form="germany" data-lang="ru">
                             <div class="search__block">
                                 <label class="input">
                                     <span class="input__title">Поиск</span>
-                                    <input type="text" class="input__field input__field_search" required data-search="germany">
+                                    <input type="text" class="input__field input__field_search" required data-search data-input="search-ger">
                                     <span class="input__img"></span>
                                     <span class="input__info info">*Поле должно содержать</span>
                                 </label>
@@ -111,7 +110,7 @@
                                     <button class="btn btn__search">Поиск</button>
                                 </div>
                             </div>
-                            <div class="search__result">
+                            <div class="search__result" data-result>
 
                             </div>
                         </form>
@@ -142,10 +141,6 @@
             </div>
         </div>
     </footer>
-
-    <div class="popup">
-
-    </div>
 
 </div>
 

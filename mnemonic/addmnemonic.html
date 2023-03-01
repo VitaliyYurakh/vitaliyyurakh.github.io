@@ -41,14 +41,14 @@
                                     <div class="form__block">
                                         <label class="input">
                                             <span class="input__title">English word * </span>
-                                            <input name="wordGlobal" type="text" class="input__field" placeholder="attempt" pattern="[A-Za-z]+" required id="input-eng">
+                                            <input name="wordGlobal" type="text" class="input__field" placeholder="attempt" pattern="[A-Za-z]+" required id="input-eng" data-input="english">
                                             <span class="input__info info">*Поле должно содержать только буквы английского алфавита</span>
                                         </label>
                                     </div>
                                     <div class="form__block">
                                         <label class="input">
                                             <span class="input__title">Русское слово * </span>
-                                            <input name="wordLocal" type="text" class="input__field" placeholder="попытка" pattern="[А-Яа-яЁё\s,]+" required id="input-rus">
+                                            <input name="wordLocal" type="text" class="input__field" placeholder="попытка" pattern="[А-Яа-яЁё\s,]+" required id="input-rus" data-input="russian">
                                             <span class="input__info info">*Поле должно содержать только буквы русского алфавита</span>
                                         </label>
                                     </div>
@@ -65,15 +65,15 @@
                                         <div class="switch__title">Выберите язык *</div>
                                         <div class="switch__wrapper">
                                             <label class="switch__item">
-                                                <input type="radio" name="lang" value="english" class="switch__input" checked>
+                                                <input type="radio" class="switch__input" checked>
                                                 <span class="switch__value">Английский</span>
                                             </label>
                                             <label class="switch__item">
-                                                <input type="radio" name="lang" value="france" class="switch__input" disabled>
+                                                <input type="radio" class="switch__input" disabled>
                                                 <span class="switch__value">Французский</span>
                                             </label>
                                             <label class="switch__item">
-                                                <input type="radio" name="lang" value="germany" class="switch__input" disabled>
+                                                <input type="radio" class="switch__input" disabled>
                                                 <span class="switch__value">Немецький</span>
                                             </label>
                                         </div>
