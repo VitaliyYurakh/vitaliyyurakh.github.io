@@ -18,6 +18,18 @@
                     <a href="index.html" class="logo__link"></a>
                     <img src="img/logo.png" alt="logo" class="logo__img">
                 </div>
+                <div class="header__info" data-translate="link">
+                    Перейти на головну
+                </div>
+                <div class="header__switch">
+                    <label class="select">
+                        <span class="select__title" data-translate="select" >Виберіть мову:</span>
+                        <select class="select__field" id="select-language">
+                            <option value="ua" class="select__option" data-translate="ukraine">Українська</option>
+                            <option value="ru" class="select__option" data-translate="russian">Російська</option>
+                        </select>
+                    </label>
+                </div>
             </div>
         </div>
     </header>
@@ -28,23 +40,23 @@
             <div class="container">
                 <div class="english__info tabs is-Active" >
                     <div class="tabs__head">
-                        <h2 class="tabs__subtitle">
-                            Английський словарь
+                        <h2 class="tabs__subtitle" data-translate="english-book">
+                            Англійський словник
                         </h2>
                         <div class="tabs__open">
                         </div>
                     </div>
                     <div class="tabs__content">
-                        <form action="" class="search" data-form="english" data-lang="ru">
+                        <form action="" class="search" data-form="english" data-lang-local="ua">
                             <div class="search__block">
                                 <label class="input">
-                                    <span class="input__title">Поиск</span>
-                                    <input type="text" class="input__field input__field_search" required pattern="[A-Za-z]+" data-search data-input="english">
+                                    <span class="input__title" data-translate="search">Пошук</span>
+                                    <input type="text" class="input__field input__field_search" required pattern="[A-Za-z\s]+" data-search data-input="english">
                                     <span class="input__img"></span>
-                                    <span class="input__info info">*Поле должно содержать</span>
+                                    <span class="input__info info" data-translate="search-info">*Поле должно содержать английськое слово или фразу</span>
                                 </label>
                                 <div class="search__actions">
-                                    <button class="btn btn__search">Поиск</button>
+                                    <button class="btn btn__search" data-translate="search">Пошук</button>
                                 </div>
                             </div>
                             <div class="search__result" data-result>
@@ -60,14 +72,15 @@
             <div class="container">
                 <div class="france__info tabs">
                     <div class="tabs__head">
-                        <h2 class="tabs__subtitle">
-                            Французский словарь <span class="tabs__mini">(пока недоступен, но скоро будет)</span>
+                        <h2 class="tabs__subtitle" data-translate="france-book">
+                            Французький словник
                         </h2>
+                        <span class="tabs__mini" data-translate="book-info">(наразі недоступний, але скоро буде)</span>
                         <div class="tabs__open">
                         </div>
                     </div>
                     <div class="tabs__content">
-                        <form action="" class="search" data-form="france" data-lang="ru">
+                        <form action="" class="search" data-form="france" data-lang-local="ua">
                             <div class="search__block">
                                 <label class="input">
                                     <span class="input__title">Поиск</span>
@@ -91,14 +104,15 @@
             <div class="container">
                 <div class="germany__info tabs" >
                     <div class="tabs__head">
-                        <h2 class="tabs__subtitle">
-                            Немецький словарь <span class="tabs__mini">(пока недоступен, но скоро будет)</span>
+                        <h2 class="tabs__subtitle" data-translate="germany-book">
+                            Німецький словник
                         </h2>
+                        <span class="tabs__mini" data-translate="book-info">(наразі недоступний, але скоро буде)</span>
                         <div class="tabs__open">
                         </div>
                     </div>
                     <div class="tabs__content">
-                        <form action="" class="search" data-form="germany" data-lang="ru">
+                        <form action="" class="search" data-form="germany" data-lang-local="ua">
                             <div class="search__block">
                                 <label class="input">
                                     <span class="input__title">Поиск</span>
@@ -131,10 +145,10 @@
                     2023 MnemonicToRemember.com
                 </div>
                 <div class="footer__policy">
-                    <a href="#" class="footer__link">
-                        Политика Конфиденциальности
+                    <a href="#" class="footer__link" data-translate="policy">
+                        Політика конфіденційності
                     </a>
-                    <a href="#" class="footer__link">
+                    <a href="#" class="footer__link" data-translate="terms">
                         Пользовательское соглашение
                     </a>
                 </div>
