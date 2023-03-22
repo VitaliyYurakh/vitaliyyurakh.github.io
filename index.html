@@ -42,9 +42,46 @@
                         </ul>
                     </nav>
                 </div>
+                <div class="header__hamburger">
+                    <div class="hamburger">
+                        <div class="hamburger__line hamburger__line_top"></div>
+                        <div class="hamburger__line hamburger__line_center"></div>
+                        <div class="hamburger__line hamburger__line_bottom"></div>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
+
+    <div class="menu">
+        <div class="menu__logo logo">
+            <div class="logo__img">
+                <img src="img/logo.png" alt="Yurakh Vitaliy">
+            </div>
+        </div>
+        <div class="menu__nav">
+            <nav class="nav">
+                <ul class="nav__list nav__list_menu">
+                    <li class="nav__item nav__item_menu">
+                        <a href="#home" class="nav__link">Головна</a>
+                    </li>
+                    <li class="nav__item nav__item_menu">
+                        <a href="#skills" class="nav__link">Навички</a>
+                    </li>
+                    <li class="nav__item nav__item_menu">
+                        <a href="#portfolio" class="nav__link">Портфоліо</a>
+                    </li>
+                    <li class="nav__item nav__item_menu">
+                        <a href="#about" class="nav__link">Про мене</a>
+                    </li>
+                    <li class="nav__item nav__item_menu">
+                        <a href="#contacts" class="nav__link">Контакти</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="menu__close"></div>
+    </div>
 
     <main class="main">
 
@@ -191,7 +228,7 @@
                             </div>
                             <div class="skills__box">
                                 <div class="skills__lang">Vue JS</div>
-                                <div class="skills__percent">20%</div>
+                                <div class="skills__percent">35%</div>
                                 <div class="skills__overlay">
                                     <div class="skills__range"></div>
                                 </div>
@@ -208,7 +245,7 @@
             </div>
             <div class="container">
                 <h2 class="portfolio__title">
-                    Галарея проєктів
+                    Галарея
                 </h2>
                 <div class="portfolio__filter">
                     <button data-filter="all" class="portfolio__item is-Active">Всі проєкти</button>
@@ -218,66 +255,62 @@
                 </div>
                 <div class="portfolio__content">
                     <div class="portfolio__project all html is-Active">
-                        <a href="#" class="portfolio__link">
+                        <a href="https://vitaliyyurakh.github.io/practicum/" target="_blank" class="portfolio__link">
                             <img src="img/portfolio/practicum.png" alt="practicum" class="portfolio__img">
                             <span class="portfolio__overlay">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, fugit!
+                                Верстка лендінга з використанням Flexbox, Grid.
                             </span>
                         </a>
                     </div>
                     <div class="portfolio__project all html is-Active">
-                        <a href="#" class="portfolio__link">
-                            <img src="img/portfolio/green-page.png" alt="green-page" class="portfolio__img">
-                            <span class="portfolio__overlay">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, fugit!
-                            </span>
-                        </a>
-                    </div>
-                    <div class="portfolio__project all html is-Active">
-                        <a href="#" class="portfolio__link">
+                        <a href="https://vitaliyyurakh.github.io/table/" target="_blank" class="portfolio__link">
                             <img src="img/portfolio/table.png" alt="table" class="portfolio__img">
                             <span class="portfolio__overlay">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, fugit!
+                                Рабочий варіант адаптації таблиць
                             </span>
                         </a>
                     </div>
-                    <div class="portfolio__project all js is-Active">
-                        <a href="#" class="portfolio__link">
-                            <img src="img/portfolio/food.png" alt="food" class="portfolio__img">
-                            <span class="portfolio__overlay">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, fugit!
-                            </span>
-                        </a>
-                    </div>
-                    <div class="portfolio__project all js is-Active">
-                        <a href="#" class="portfolio__link">
-                            <img src="img/portfolio/movieDB.png" alt="movieDB" class="portfolio__img">
-                            <span class="portfolio__overlay">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, fugit!
-                            </span>
-                        </a>
-                    </div>
-                    <div class="portfolio__project all html js is-Active">
-                        <a href="#" class="portfolio__link">
+                    <div class="portfolio__project all html is-Active">
+                        <a href="https://vitaliyyurakh.github.io/project/" target="_blank" class="portfolio__link">
                             <img src="img/portfolio/project.png" alt="project" class="portfolio__img">
                             <span class="portfolio__overlay">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, fugit!
+                                Простий, адаптивний лендинг
+                            </span>
+                        </a>
+                    </div>
+                    <div class="portfolio__project all html is-Active">
+                        <a href="https://vitaliyyurakh.github.io/green_page/" target="_blank" class="portfolio__link">
+                            <img src="img/portfolio/green-page.png" alt="green-page" class="portfolio__img">
+                            <span class="portfolio__overlay">
+                                Проєкт інтернет-магазину, реалізовано головну сторінку,
+                                сторінку товарів, сторінку одного товару, також реалізовано слайдери.
+                            </span>
+                        </a>
+                    </div>
+                    <div class="portfolio__project all js is-Active">
+                        <a href="https://vitaliyyurakh.github.io/food/" target="_blank" class="portfolio__link">
+                            <img src="img/portfolio/food.png" alt="food" class="portfolio__img">
+                            <span class="portfolio__overlay">
+                                Робота виключно з JS. Було зроблено калькулятор
+                                кілокалорій (по реальній формулі) з використанням LocalStorage,
+                                кастомний слайдер (нативний JS),
+                                та реалізований таймер зворотнього відліку до дедлайну
                             </span>
                         </a>
                     </div>
                     <div class="portfolio__project all html js is-Active">
-                        <a href="#" class="portfolio__link">
+                        <a href="https://vitaliyyurakh.github.io/miami/" target="_blank" class="portfolio__link">
                             <img src="img/portfolio/miami.png" alt="miami" class="portfolio__img">
                             <span class="portfolio__overlay">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, fugit!
+                                Лендінг, верстка + js анімації
                             </span>
                         </a>
                     </div>
-                    <div class="portfolio__project all ready is-Active">
-                        <a href="#" class="portfolio__link">
+                    <div class="portfolio__project all html js ready is-Active">
+                        <a href="https://mnemonic.com.ua/" target="_blank" class="portfolio__link">
                             <img src="img/portfolio/mnemonic.png" alt="mnemonic" class="portfolio__img">
                             <span class="portfolio__overlay">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, fugit!
+                                Сайт для вивчення іноземних слів, зроблений нуля до публікації.
                             </span>
                         </a>
                     </div>
