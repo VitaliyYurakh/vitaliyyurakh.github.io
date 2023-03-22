@@ -1,6 +1,6 @@
-import {getResource} from '../services/services'
+// import {getResource} from '../services/services'
 
-function cards() {
+// function cards() {
     // Використовуем класи
 
 //     class MenuCard {
@@ -104,6 +104,6 @@ function cards() {
     //     '.menu .container',
     //     'menu__item'
     // ).render();
-}
+// }
 
-export default cards
+// export default cards
