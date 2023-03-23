@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Document</title>
+    <title>Portfolio</title>
 
     <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
     <link rel="stylesheet" href="css/style.css">
@@ -13,6 +13,7 @@
 <body class="site">
 <div class="site__wrap">
 
+    <--Header-->
     <header class="header">
         <div class="container">
             <div class="header__wrapper">
@@ -52,7 +53,9 @@
             </div>
         </div>
     </header>
+    <--/Header-->
 
+    <--Menu-->
     <div class="menu">
         <div class="menu__logo logo">
             <div class="logo__img">
@@ -82,9 +85,12 @@
         </div>
         <div class="menu__close"></div>
     </div>
+    <--/Menu-->
 
+    <--Main-->
     <main class="main">
 
+        <--Home-->
         <section class="home" id="home">
             <div class="container">
                 <div class="home__wrapper">
@@ -112,7 +118,7 @@
                         </div>
                         <div class="home__actions">
                             <div class="home__block">
-                                <a href="#portfolio" class="btn">Портфолио</a>
+                                <a href="#portfolio" class="btn">Портфоліо</a>
                             </div>
                             <div class="home__block">
                                 <a href="#contacts" class="btn">Контакти</a>
@@ -122,7 +128,9 @@
                 </div>
             </div>
         </section>
+        <--/Home-->
 
+        <--Skills-->
         <section class="skills">
             <div class="head">
                 <h2 class="head__title" id="skills">Навички</h2>
@@ -238,7 +246,9 @@
                 </div>
             </div>
         </section>
+        <--/Skills-->
 
+        <--Portfolio-->
         <section class="portfolio">
             <div class="head">
                 <h2 class="head__title" id="portfolio">Портфоліо</h2>
@@ -251,7 +261,7 @@
                     <button data-filter="all" class="portfolio__item is-Active">Всі проєкти</button>
                     <button data-filter="html" class="portfolio__item">HTML, CSS - верстка</button>
                     <button data-filter="js" class="portfolio__item">JavaScript</button>
-                    <button data-filter="ready" class="portfolio__item">"Під ключ"</button>
+                    <button data-filter="ready" class="portfolio__item">Готові проєкти</button>
                 </div>
                 <div class="portfolio__content">
                     <div class="portfolio__project all html is-Active">
@@ -266,7 +276,7 @@
                         <a href="https://vitaliyyurakh.github.io/table/" target="_blank" class="portfolio__link">
                             <img src="img/portfolio/table.png" alt="table" class="portfolio__img">
                             <span class="portfolio__overlay">
-                                Рабочий варіант адаптації таблиць
+                                Один із варіантів адаптації таблиць
                             </span>
                         </a>
                     </div>
@@ -274,7 +284,7 @@
                         <a href="https://vitaliyyurakh.github.io/project/" target="_blank" class="portfolio__link">
                             <img src="img/portfolio/project.png" alt="project" class="portfolio__img">
                             <span class="portfolio__overlay">
-                                Простий, адаптивний лендинг
+                                Простий, адаптивний лендінг
                             </span>
                         </a>
                     </div>
@@ -310,14 +320,16 @@
                         <a href="https://mnemonic.com.ua/" target="_blank" class="portfolio__link">
                             <img src="img/portfolio/mnemonic.png" alt="mnemonic" class="portfolio__img">
                             <span class="portfolio__overlay">
-                                Сайт для вивчення іноземних слів, зроблений нуля до публікації.
+                                Сайт для вивчення іноземних слів, зроблений з нуля до публікації.
                             </span>
                         </a>
                     </div>
                 </div>
             </div>
         </section>
+        <--Portfolio-->
 
+        <--About-->
         <section class="about">
             <div class="head">
                 <h2 class="head__title" id="about">Про Мене</h2>
@@ -329,8 +341,8 @@
                             Моя Історія
                         </h2>
                         <p class="about__description">
-                            Мене звати Віталій і я працюю у сфері програмування вже більше року як фронтенд розробник
-                            . Наразі мені 27 років і я стараюсь постійно
+                            Мене звати Віталій і я працюю у сфері програмування вже більше року як фронтенд розробник.
+                            Наразі мені 27 років і я стараюсь постійно
                             розвиватися та вдосконалювати свої професійні навички.
                         </p>
                         <br>
@@ -371,7 +383,9 @@
                 </div>
             </div>
         </section>
+        <--/About-->
 
+        <--Contacts-->
         <section class="contacts">
             <div class="head">
                 <h2 class="head__title" id="contacts">Контакти</h2>
@@ -455,7 +469,8 @@
                                         </div>
                                     </div>
                                     <div class="form__block">
-                                         <textarea name="message" required class="form__textarea" placeholder="Ваше повідомлення..."></textarea>
+                                        <label for="message" class="form__label"></label>
+                                        <textarea id="message" name="message" required class="form__textarea" placeholder="Ваше повідомлення..."></textarea>
                                     </div>
                                 </div>
                                 <div class="form__wrap">
@@ -474,9 +489,12 @@
                 </div>
             </div>
         </section>
+        <--/Contacts-->
 
     </main>
+    <--/Main-->
 
+    <--Footer-->
     <footer class="footer">
         <div class="container">
             <div class="footer__info">
@@ -484,6 +502,7 @@
             </div>
         </div>
     </footer>
+    <--/Footer-->
 
 </div>
 
